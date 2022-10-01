@@ -1,24 +1,12 @@
 # Name
-[Badges]
-## Introduction - 介绍
-### Summary - 概要
-### Features - 特性
-## Requirements - 必要条件（环境，对所有项目，和所有子模块和库的描述。）
-## Configuration - 配置（配置信息。）
-## Installation - 安装（如何安装。）
-## Usage - 用法（用法。）
-## Development - 开发（关于怎样开发的文档信息。（API 等。））
-## Changelog - 更新日志（一个简短的历史记录（更改，替换或者其他）。）
-## FAQ - 常见问题（常见问题。）
-## Support - 支持
-### Dos - 文档（更多文档。）
-### Contact - 联系
-（其他联系信息（电子邮件地址，网站，公司名称，地址等）。
-提交bug，功能要求，提交补丁，加入邮件列表，得到通知，或加入用户或开发开发区群的介绍。）
-## Authors and acknowledgment - 贡献者和感谢（作者列表和鸣谢。）
-## License - 版权信息（版权和许可信息（或阅读许可证）、法律声明。）
+[Emotional-computing-brain-computer-interface]
+## 1.	Background
+Emotional computing technology, which enables machines to understand human emotions, is becoming a research hotspot in the fields of human-computer interaction, mental health and artificial intelligence. Compared with speech, expression, heart rate and other behaviors and peripheral physiological signals, EEG can directly reflect individual emotional experience information, and EEG emotional computing/emotional brain-computer interface has been widely concerned by academic circles in recent years.
+Due to the individual differences in emotional experience, how to realize cross-individual robust emotional recognition has always been a major challenge for the practical application of EEG emotional computing/emotional brain-computer interface (Hu et al. 2019). Facing this challenge, this contest provides participants with a batch of EEG data from 80 subjects with known emotional state information. Participants are required to establish an EEG calculation model with cross-individual emotional recognition ability, conduct real-time emotional recognition on another batch of subjects' EEG data, and determine the competition results according to the accuracy of emotional recognition.
 
-作者：千同学
-链接：https://juejin.cn/post/6886277295628255246
-来源：稀土掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+### 2.Data and Evaluation
+![image](https://user-images.githubusercontent.com/45135430/193395917-9a992233-ed33-454e-a59f-70113da454b1.png)
+The EEG data acquisition process is shown in the above figure. Subjects watch a total of 28 emotional videos in 7 block. The 28 videos are composed of 4 negative emotions (anger, nausea, fear, sadness), 3 videos each, 4 videos of neutral emotions, and
+Four kinds of positive emotions (pleasure, motivation, happiness and warmth) are composed of three videos. These video materials are taken from Chinese Emotional Fragments Standard Database (Ge et al., 2019), Positive Emotion Database (Hu et al., 2017, 2019) and FilmStim Database (Schaefer et al., 2010). The average length of video clips is 67s, ranging from 34s to 129s. Chinese subtitles have been re-added to the segments of the video that contain non-Chinese conversations to ensure that Chinese native speakers can fully understand the content of the video. For specific video information, please refer to Schedule 1- Emotional Inducing Materials.
+Subjects watch 4 videos (positive, negative or neutral) with the same titer in each block, and watching one video is a trial. Each trial consists of five seconds of black screen gaze point presentation, video playback and emotional experience self-report. At the end of each trial, the subjects need to complete a simple emotional experience report, rest for at least 30 seconds, calm their emotions as much as possible and continue the experiment. At the end of each block, the subjects were asked to complete 20 math problems, so as to minimize the influence of previous emotional state on the follow-up experiments. See Li et al., 2020 and Hu et al., 2022 for more detailed information on data acquisition process.
+
