@@ -1,4 +1,24 @@
-Brain-computer interface circuit
+# Name
+[Badges]
+## Introduction - 介绍
+### Summary - 概要
+### Features - 特性
+## Requirements - 必要条件（环境，对所有项目，和所有子模块和库的描述。）
+## Configuration - 配置（配置信息。）
+## Installation - 安装（如何安装。）
+## Usage - 用法（用法。）
+## Development - 开发（关于怎样开发的文档信息。（API 等。））
+## Changelog - 更新日志（一个简短的历史记录（更改，替换或者其他）。）
+## FAQ - 常见问题（常见问题。）
+## Support - 支持
+### Dos - 文档（更多文档。）
+### Contact - 联系
+（其他联系信息（电子邮件地址，网站，公司名称，地址等）。
+提交bug，功能要求，提交补丁，加入邮件列表，得到通知，或加入用户或开发开发区群的介绍。）
+## Authors and acknowledgment - 贡献者和感谢（作者列表和鸣谢。）
+## License - 版权信息（版权和许可信息（或阅读许可证）、法律声明。）
 
-Emotional computing technology, which enables machines to understand human emotions, is becoming a research hotspot in the fields of human-computer interaction, mental health and artificial intelligence. Compared with speech, expression, heart rate and other behaviors and peripheral physiological signals, EEG can directly reflect individual emotional experience information, and EEG emotional computing/emotional brain-computer interface has been widely concerned by academic circles in recent years.
-Due to the individual differences in emotional experience, how to realize cross-individual robust emotional recognition has always been a major challenge for the practical application of EEG emotional computing/emotional brain-computer interface (Hu et al. 2019). Facing this challenge, this contest provides participants with a batch of EEG data from 80 subjects with known emotional state information. Participants are required to establish an EEG calculation model with cross-individual emotional recognition ability, conduct real-time emotional recognition on another batch of subjects' EEG data, and determine the competition results according to the accuracy of emotional recognition.
+作者：千同学
+链接：https://juejin.cn/post/6886277295628255246
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
